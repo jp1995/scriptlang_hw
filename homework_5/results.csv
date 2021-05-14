@@ -1,0 +1,39 @@
+Hostname,sandbox-iosxe-latest-1
+Domain name,abc.inc
+Last configuration change,18:09:13 UTC Wed Mar 31 2021 by developer
+Uptime,"2 days, 3 hours, 32 minutes"
+Number of interfaces,7
+Number of enabled interfaces,4
+Enabled interfaces,"GigabitEthernet1, IP address: 10.10.20.48/24, MAC address: 0050.56bf.78ac","GigabitEthernet2, IP address: 2.2.2.2/24, MAC address: 0050.56bf.4ea3","Loopback0, IP address: none, MAC address: Loopback","Loopback1, IP address: 1.1.1.1/24, MAC address: Loopback"
+SSH enabled,True
+Number of SSH sessions,2
+SSH connections,"0, 2.0, IN, aes128-ctr, hmac-sha2-256-etm@openssh.com, Session, started, developer","0, 2.0, OUT, aes128-ctr, hmac-sha2-256-etm@openssh.com, Session, started, developer"
+Total IP packets received,1111595
+Total IP packets sent,1141894
+
+Hostname,testimran
+Domain name,abc.inc
+Last configuration change,17:56:36 UTC Wed Mar 31 2021 by developer
+Uptime,"3 hours, 58 minutes"
+Number of interfaces,5
+Number of enabled interfaces,3
+Enabled interfaces,"GigabitEthernet1, IP address: 10.10.20.48/24, MAC address: 0050.56bb.e14e","Loopback10, IP address: 2.2.2.2/32, MAC address: Loopback","Loopback99, IP address: 10.111.99.1/32, MAC address: Loopback"
+SSH enabled,True
+Number of SSH sessions,2
+SSH connections,"0, 2.0, IN, aes128-ctr, hmac-sha2-256, Session, started, developer","0, 2.0, OUT, aes128-ctr, hmac-sha2-256, Session, started, developer"
+Total IP packets received,22762
+Total IP packets sent,21275
+
+Hostname,iosxr1
+Domain name,abc.inc
+Last configuration change,Thu Apr  1 07:12:43 2021 by admin
+Uptime,3 hours 49 minutes
+Number of interfaces,13
+Number of enabled interfaces,2
+Enabled interfaces,"Thu, IP address: 7.7.7.7/32, MAC address: 0050.56bb.c66e","1, IP address: 20.20.20.11/24, MAC address: 0050.56bb.4247"
+SSH enabled,True
+Number of SSH sessions,3
+SSH connections,185.134.103.157,185.134.103.157,88.196.23.236
+Total IP packets received,13877
+Total IP packets sent,18231
+

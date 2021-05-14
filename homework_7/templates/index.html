@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Homework7</title>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta name="keywords" content="very complicated database-driven website">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}" />
+
+</head>
+<body>
+
+    <form class="form-inline" method="POST" action="">
+        <label for="code">Code:</label>
+        <input type="text" id="code" name="code">
+        <label for="user">User:</label>
+        <input type="text" id="user" name="user">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Some data:</h2>
+
+    <table>
+        <tr id="bold">
+            <td>Code</td>
+            <td>User</td>
+            <td>Email</td>
+            <td>Status</td>
+        </tr>
+        {% for item in data %}
+        <tr>
+            <td>{{item[0]}}</td>
+            <td>{{item[1]}}</td>
+            <td>{{item[2]}}</td>
+            <td>{{item[3]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
